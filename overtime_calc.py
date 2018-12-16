@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 import getpass
 
@@ -25,5 +26,6 @@ class OvertimeCalc:
 if __name__ == '__main__':
     overtime = sys.argv[1:]
     salary = getpass.getpass('your salary: ')
-    obj = OvertimeCalc(int(salary))
-    print 'extra:', obj.extra(overtime)
+    salary = int(salary) if len(salary) > 0 else 0
+    obj = OvertimeCalc(salary)
+    print('extra:', obj.extra(overtime))
