@@ -46,6 +46,13 @@ extra: 0
 your salary: [key in 50000 then press Enter]
 extra: 1533
 ```
+In Java
+```
+> javac overtime_calc.java
+> java overtime_calc 3.21 1.23 2.87
+Salary: [key in 60000 then press Enter]
+extra: 1715 
+```
 
 ## Requirement
 Python2.7 or Python3.+
