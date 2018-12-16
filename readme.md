@@ -4,8 +4,13 @@ These scripts were used in command prompt. Type in overtime hours as the followi
 The rules for overtime pay were according to CSNT.
 
 ## Syntax
+In Python
 ```
 python overtime_calc.py [hours] [...] ...
+```
+In Java
+```
+java overtime_calc [hours] [...] ...
 ```
 
 ## Parameter
@@ -23,6 +28,7 @@ python overtime_calc.py [hours] [...] ...
 </table>
 
 ## Example
+In Python
 ```
 > python overtime_calc.py [Enter]
 your salary: [Enter]
